@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5701618810648052610" datatype="html">
+        <source>Title</source>
+        <target>Título</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/note-detail/note-detail.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1157630416437993334" datatype="html">
+        <source>Body</source>
+        <target>Corpo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/note-detail/note-detail.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3620188369327429839" datatype="html">
+        <source> Save </source>
+        <target> Gravar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/note-detail/note-detail.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6660925946511264619" datatype="html">
+        <source> Delete </source>
+        <target> Eliminar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/note-detail/note-detail.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8104421162933956065" datatype="html">
+        <source>Notes</source>
+        <target>Notas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/note-list/note-list.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="404345349657011258" datatype="html">
+        <source>New note</source>
+        <target>Nova nota</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/note-list/note-list.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2256581797902573217" datatype="html">
+        <source> Download </source>
+        <target> Download </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/note-list/note-list.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4842432534148275616" datatype="html">
+        <source> Upload </source>
+        <target> Upload </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/upload/upload.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,36 @@
+<header>
+  <a routerLink="/notes" class="logo" i18n>Notes</a>
+  <a routerLink="/notes/new" class="button" i18n>New note</a>
+
+  <button class="button" type="button"  (click)="download();" i18n>
+    Download
+  </button>
+
+<app-upload  (fileContentEvent)="uploadFile($event)" ></app-upload>
+
+</header>
+
+<div class="row">
+  <input id="doc-drawer-checkbox" class="drawer" value="on" type="checkbox" />
+  <nav class="col-md-4 col-lg-3">
+    <div>
+      <input
+
+        placeholder="Search..."
+        type="search"
+        id="search-bar"
+        (change)="search($event)"
+      />
+    </div>
+
+    <a routerLink="/notes/detail/{{ note.id }}" *ngFor="let note of notes">{{
+      note.title
+    }}</a>
+  </nav>
+
+  <main class="col-sm-12 col-md-8 col-lg-9">
+    <div class="card fluid">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+</div>

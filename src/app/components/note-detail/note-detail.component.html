@@ -1,0 +1,32 @@
+<form [formGroup]="noteForm" (ngSubmit)="onSubmit()">
+  <div class="row responsive-label">
+    <div class="col-sm-12 col-md-3">
+      <label for="title" class="doc" i18n>Title</label>
+    </div>
+    <div class="col-sm-12 col-md">
+      <input
+        formControlName="title"
+        type="text"
+        id="title"
+        class="doc"
+      />
+    </div>
+  </div>
+
+  <div class="row responsive-label">
+    <div class="col-sm-12 col-md-3">
+      <label for="body" class="doc" i18n>Body</label>
+    </div>
+    <div class="col-sm-12 col-md">
+      <textarea class="doc" id="body" formControlName="body"></textarea>
+    </div>
+  </div>
+
+  <button class="primary" type="submit" [disabled]="!noteForm.valid" i18n>
+    Save
+  </button>
+
+  <button class="secondary" *ngIf="!isAddMode" (click)="deleteNote()" i18n>
+    Delete
+  </button>
+</form>

@@ -1,0 +1,21 @@
+version: '2'
+services:
+
+  frontend:
+    container_name: cocus-frontend
+    build:
+      context: .
+      dockerfile: ./frontend/Dockerfile
+    working_dir: /var/www/html/
+    environment:
+      - "USER=${USER}"
+
+    volumes:
+      - ./frontend/run.sh:/run.sh
+      - ../:/var/www/html/
+
+    command: sh /run.sh
+    ports:
+      - 8080:4200
+
+

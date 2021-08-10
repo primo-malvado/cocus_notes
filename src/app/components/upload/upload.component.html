@@ -1,0 +1,17 @@
+<input
+  type="file"
+  class="file-input"
+  (change)="onFileSelected($event)"
+  #fileUpload
+/>
+
+<button i18n
+  mat-mini-fab
+  color="primary"
+  class="upload-btn"
+  (click)="fileUpload.click()"
+>
+
+     Upload
+
+</button>
